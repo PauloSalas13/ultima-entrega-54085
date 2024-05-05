@@ -1,0 +1,31 @@
+
+.image-card:hover {
+  cursor: pointer;
+  /* Cambiar a una mano (cursor de enlace) al pasar el mouse sobre la imagen */
+}
+
+.image-box-card {
+  overflow: hidden;
+  /* Para recortar la imagen al agrandarla */
+}
+
+.image-box-card {
+  transition: transform 1.5s;
+  /* Duración de la transición */
+}
+
+.image-box-card:hover {
+  transform: scale(1.1);
+  /* Agrandar la imagen al 110% */
+  cursor: pointer;
+}
+
+.image-link,
+.details-link {
+  text-decoration: none;
+}
+
+.image-link:hover,
+.details-link:hover {
+  text-decoration: none;
+}
